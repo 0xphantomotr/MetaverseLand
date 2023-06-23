@@ -1,6 +1,5 @@
 # MetaverseLand
 
-MetaverseLand
 MetaverseLand is a decentralized application (DApp) that allows users to interact with virtual land parcels in a metaverse environment.
 
 Technologies Used
