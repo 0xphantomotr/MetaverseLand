@@ -1,5 +1,22 @@
 {
   "dependencies": {
-    "openzeppelin-solidity": "github:OpenZeppelin/openzeppelin-contracts"
+    "@openzeppelin/contracts": "^4.8.3",
+    "openzeppelin-solidity": "github:OpenZeppelin/openzeppelin-contracts",
+    "web3": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "babylonjs": "^6.2.0",
+    "babylonjs-loaders": "^6.2.0",
+    "dotenv-webpack": "^8.0.1",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open"
   }
 }
